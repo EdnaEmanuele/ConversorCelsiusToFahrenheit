@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/enunciado"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp"
+        android:text="Enter the temperature in Celsius that you want to convert to Fahrenheit and click the button below"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.168" />
+
+    <Button
+        android:id="@+id/convertBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Convert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fahrenheitF"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="38dp"
+        android:text="ºF"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <TextView
+        android:id="@+id/fahrenheit"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="70dp"
+        android:text="   "
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <TextView
+        android:id="@+id/celsius"
+        android:layout_width="42dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="248dp"
+        android:text="ºC"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="134dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="223dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <TextView
+        android:id="@+id/____"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="40dp"
+        android:text="____________________" />
+
+</RelativeLayout>
